@@ -25,8 +25,8 @@ path = Path(__file__).parent
 
 # Protocol files
 protocol_files = {
-    "PERSEUS": path / "PERSEUS.json",
-    "CALGB 10403": path / "CALGB_10403.json"
+    "PERSEUS": path / "perseus.json",
+    "CALGB 10403": path / "calgb_10403.json"
 }
 
 # Main section for displaying the calendar
