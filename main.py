@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import json
@@ -21,8 +22,8 @@ def generate_schedule_df(protocol_details, start_date):
 
 # Protocol files
 protocol_files = {
-    "PERSEUS": "protocols/PERSEUS.json",
-    "CALGB 10403": "protocols/CALGB_10403.json"
+    "PERSEUS": "app/static/PERSEUS.json",
+    "CALGB 10403": "app/static/CALGB_10403.json"
 }
 
 # Main section for displaying the calendar
