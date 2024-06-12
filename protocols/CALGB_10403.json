@@ -1,0 +1,157 @@
+[
+    {
+        "phase": "Remission Induction (Course I)",
+        "treatments": [
+            {
+                "name": "Allopurinol",
+                "days": [1],
+                "dosage": "300 mg/day"
+            },
+            {
+                "name": "IT-Ara-C",
+                "days": [1],
+                "dosage": "70 mg IT"
+            },
+            {
+                "name": "Pred",
+                "days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+                "dosage": "60 mg/m²/day PO or IV"
+            },
+            {
+                "name": "VCR",
+                "days": [1, 8, 15, 22],
+                "dosage": "1.5 mg/m² IV"
+            },
+            {
+                "name": "DNR",
+                "days": [1, 8, 15, 22],
+                "dosage": "25 mg/m² IV"
+            },
+            {
+                "name": "PEG",
+                "days": [4],
+                "dosage": "2500 IU/m² IM or IV"
+            },
+            {
+                "name": "IT-MTX",
+                "days": [8, 29],
+                "dosage": "15 mg IT"
+            }
+        ]
+    },
+    {
+        "phase": "Extended Remission Induction (Course IA)",
+        "treatments": [
+            {
+                "name": "Pred",
+                "days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+                "dosage": "60 mg/m²/day PO or IV (methylprednisolone)"
+            },
+            {
+                "name": "DNR",
+                "days": [1],
+                "dosage": "25 mg/m² IV"
+            },
+            {
+                "name": "VCR",
+                "days": [1, 8],
+                "dosage": "1.5 mg/m² IV"
+            },
+            {
+                "name": "PEG",
+                "days": [4],
+                "dosage": "2500 IU/m² IM or IV"
+            }
+        ]
+    },
+    {
+        "phase": "Remission Consolidation (Course II)",
+        "treatments": [
+            {
+                "name": "CTX",
+                "days": [1, 29],
+                "dosage": "1000 mg/m² IV"
+            },
+            {
+                "name": "Ara-C",
+                "days": [1, 2, 3, 4, 8, 9, 10, 11, 29, 30, 31, 32, 36, 37, 38, 39],
+                "dosage": "75 mg/m² IV or SC"
+            },
+            {
+                "name": "6-MP",
+                "days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+                "dosage": "60 mg/m² PO"
+            },
+            {
+                "name": "VCR",
+                "days": [15, 22, 43, 50],
+                "dosage": "1.5 mg/m² IV"
+            },
+            {
+                "name": "PEG",
+                "days": [15, 43],
+                "dosage": "2500 IU/m² IM or IV"
+            },
+            {
+                "name": "IT-MTX",
+                "days": [1, 8, 15, 22],
+                "dosage": "15 mg IT"
+            }
+        ]
+    },
+    {
+        "phase": "Interim Maintenance (Course III)",
+        "treatments": [
+            {
+                "name": "IV-MTX",
+                "days": [1, 11, 21, 31, 41],
+                "dosage": "starting dose 100 mg/m² IV (escalate by 50 mg/m²/dose)"
+            },
+            {
+                "name": "VCR",
+                "days": [1, 11, 21, 31, 41],
+                "dosage": "1.5 mg/m² (maximum dose 2 mg) IV"
+            },
+            {
+                "name": "PEG",
+                "days": [2, 22],
+                "dosage": "2500 IU/m² IM or IV"
+            },
+            {
+                "name": "IT-MTX",
+                "days": [1, 31],
+                "dosage": "15 mg IT"
+            }
+        ]
+    },
+    {
+        "phase": "Maintenance (Course V)",
+        "treatments": [
+            {
+                "name": "VCR",
+                "days": [1, 29, 57],
+                "dosage": "1.5 mg/m² (maximum dose 2 mg) IV"
+            },
+            {
+                "name": "DEX",
+                "days": [1, 2, 3, 4, 5, 29, 30, 31, 32, 33, 57, 58, 59, 60, 61],
+                "dosage": "6 mg/m²/day PO (or IV) in 2 divided doses every 4 weeks"
+            },
+            {
+                "name": "6-MP",
+                "days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84],
+                "dosage": "75 mg/m²/day PO"
+            },
+            {
+                "name": "IT-MTX",
+                "days": [1, 29, 57],
+                "dosage": "15 mg IT"
+            },
+            {
+                "name": "PO-MTX",
+                "days": [8, 15, 22, 29, 36, 43, 50, 57, 64, 71, 78],
+                "dosage": "20 mg/m² PO weekly"
+            }
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "phase": "Standard cycle (28-days)",
+        "treatments": [
+            {
+                "name": "Daratumumab",
+                "days": [1, 8, 15, 22],
+                "dosage": "Pre-medications: Dexamethasone 20 mg orally or IV, Acetaminophen 650-1000 mg orally, Diphenhydramine 25-50 mg orally or IV, Montelukast 10 mg orally (optional)"
+            },
+            {
+                "name": "Cytoxan (Cyclophosphamide)",
+                "days": [1, 8, 15, 22],
+                "dosage": ""
+            },
+            {
+                "name": "Bortezomib",
+                "days": [1, 8, 15, 22],
+                "dosage": ""
+            },
+            {
+                "name": "Dexamethasone",
+                "days": [1, 8, 15, 22],
+                "dosage": ""
+            }
+        ]
+    }
+]
