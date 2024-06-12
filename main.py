@@ -22,8 +22,8 @@ def generate_schedule_df(protocol_details, start_date):
 
 # Protocol files
 protocol_files = {
-    "PERSEUS": "app/static/PERSEUS.json",
-    "CALGB 10403": "app/static/CALGB_10403.json"
+    "PERSEUS": "./static/PERSEUS.json",
+    "CALGB 10403": "./static/CALGB_10403.json"
 }
 
 # Main section for displaying the calendar
