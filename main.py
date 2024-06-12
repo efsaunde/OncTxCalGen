@@ -4,6 +4,7 @@ import pandas as pd
 import json
 from datetime import timedelta
 from streamlit_calendar import calendar
+from pathlib import Path
 
 st.set_page_config(layout="wide")
 
@@ -20,10 +21,12 @@ def generate_schedule_df(protocol_details, start_date):
     return df
 
 
+path = Path(__file__).parent
+
 # Protocol files
 protocol_files = {
-    "PERSEUS": "PERSEUS.json",
-    "CALGB 10403": "CALGB_10403.json"
+    "PERSEUS": path / "PERSEUS.json",
+    "CALGB 10403": path / "CALGB_10403.json"
 }
 
 # Main section for displaying the calendar
