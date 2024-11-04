@@ -58,7 +58,8 @@ with st.container():
             'title': row['Treatment'],
             'start': row['Date'].strftime('%Y-%m-%dT%H:%M:%S'),
             'end': (row['Date'] + timedelta(hours=1)).strftime('%Y-%m-%dT%H:%M:%S'),
-            'description': row['Dosage']
+            'description': row['Dosage'],
+            'allDay': True
         }
         for _, row in schedule_df.iterrows()
     ]
