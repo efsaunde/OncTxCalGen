@@ -124,6 +124,10 @@ with st.container():
                         else:
                             st.info("No treatments found for the selected phase.")
 
+    st.markdown("""
+    *Reference: Data and protocol information provided by Systemic Anti-Cancer Therapy Regimen Library from NZ Formulary (https://srl.org.nz/regimens/).*
+    """)
+
     # -------------------------------
     # 4. Calendar Rendering
     # -------------------------------
