@@ -19,6 +19,8 @@ session = Session()
 # -------------------------------
 # 2. Helper Functions
 # -------------------------------
+
+
 def parse_days(days_str):
     """Convert a CSV string with ranges (e.g., '2 to 5, 9 to 12') into a list of integers."""
     days = []
@@ -40,6 +42,7 @@ def parse_days(days_str):
                 continue
     return days
 
+
 def generate_schedule_df(treatments, start_date):
     """Generate a schedule DataFrame from a list of treatment records."""
     schedule_data = {'Date': [], 'Treatment': [], 'Dosage': []}
@@ -56,6 +59,8 @@ def generate_schedule_df(treatments, start_date):
 # -------------------------------
 # 3. Streamlit UI and Database Query
 # -------------------------------
+
+
 with st.container():
     st.markdown("## Oncology Treatment Calendar Generator")
 
